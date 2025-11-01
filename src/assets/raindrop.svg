@@ -1,0 +1,33 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  version="1.1"
+  id="svg13337"
+>
+  <defs id="defs13339">
+    <filter id="filter13207" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur13209" stdDeviation="1.1184954" />
+    </filter>
+    <filter id="filter13197" width="1.6583" y="-.13801" x="-.32914" height="1.276" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur13199" stdDeviation="4.0396815" />
+    </filter>
+    <radialGradient id="radialGradient13308" gradientUnits="userSpaceOnUse" cy="131.6" cx="-150.49" r="27.879">
+      <stop id="stop13243" style="stop-color:#ffffff" offset="0" />
+      <stop id="stop13245" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </radialGradient>
+  </defs>
+  <g id="layer1" transform="translate(0,36)">
+    <g id="g13282" transform="translate(179.57 -121.37)">
+      <path
+        id="path13201"
+        d="m-97.374 144.32c0 18.452-14.416 33.41-32.199 33.41s-32.199-14.958-32.199-33.41 32.199-51.325 32.199-51.325 32.199 32.873 32.199 51.325z"
+        style="filter:url(#filter13207);fill:#000000"
+      />
+      <path
+        id="path9117"
+        style="fill:#83cadd"
+        d="m-97.374 144.32c0 18.452-14.416 33.41-32.199 33.41s-32.199-14.958-32.199-33.41 32.199-51.325 32.199-51.325 32.199 32.873 32.199 51.325z"
+      />
+    </g>
+  </g>
+</svg>
