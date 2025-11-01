@@ -14,7 +14,7 @@ const responses = {
   default:
     "I'm sorry, I didn't understand that. Could you please try one of the options below?",
 
-  getFollowUps: (question) => {
+  getFollowUps: (question:string) => {
     // Add follow-up questions based on the user's input
     switch (question) {
       case "Projects":
