@@ -1,6 +1,5 @@
 import React from "react";
 import skillsDetails from "../utils/skillsDetails";
-import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -32,6 +31,7 @@ const Skills = () => {
               className="group flex flex-col items-center p-4 w-full relative transition-all duration-300 bg-white dark:bg-gray-800 rounded-xl shadow-sm"
               data-aos="zoom-in"
               data-aos-delay={index * 50 + 200}
+
             >
               <div className="flex flex-col items-center w-full">
                 <div className="mb-3 p-2 rounded-lg transition-transform duration-300 group-hover:scale-110">
