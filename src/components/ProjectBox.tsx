@@ -171,7 +171,7 @@ function ProjectBox({
           {name}
         </h2>
 
-        <p className="text-sm/6 mb-4 opacity-90 group-hover:opacity-100 transition-opacity duration-300">
+        <p className="text-sm/6 mb-4 opacity-90 group-hover:opacity-100 transition-opacity duration-300 text-black dark:text-white">
           {detail}
         </p>
 
