@@ -24,10 +24,10 @@ const scrollToHero = () => {
       >
         {/* Left Section */}
         <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left px-6 md:px-10">
-          <h4 className="text-4xl sm:text-5xl md:text-6xl font-medium leading-tight py-1">
+          <h4 className="text-4xl sm:text-5xl md:text-6xl font-medium leading-tight py-1 text-black dark:text-white">
             Hi there,
           </h4>
-          <h4 className="text-4xl sm:text-5xl md:text-6xl font-medium leading-tight py-1">
+          <h4 className="text-4xl sm:text-5xl md:text-6xl font-medium leading-tight py-1 text-black dark:text-white">
             I am
           </h4>
 
