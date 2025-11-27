@@ -116,6 +116,7 @@
 
 import React from "react";
 import Tag from "./Tag";
+import Image from "next/image";
 
 interface ProjectBoxProps {
   id: number;
@@ -148,11 +149,12 @@ function ProjectBox({
     >
       {/* Image */}
       <figure className="relative overflow-hidden">
-        <img
+        <Image
           className="w-full aspect-video object-cover border-b-2 dark:border-slate-600 transform transition-transform duration-1000 ease-out hover:scale-110"
           src={image}
           alt={name}
-          loading="lazy"
+          width={1080}
+          height={600}
         />
       </figure>
 

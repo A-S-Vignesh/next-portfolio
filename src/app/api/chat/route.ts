@@ -86,56 +86,56 @@ try {
         <strong>1. Blog-GPT</strong>  
         <p>A Next.js blog platform where users can write posts and generate content using Gemini AI.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/blog-gpt" target="_blank">View Repo</a></li>
-        <li><strong>Live Demo:</strong> <a href="https://thebloggpt.vercel.app/" target="_blank">Visit Site</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/blog-gpt" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://thebloggpt.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> Next.js, MongoDB, Tailwind CSS, Gemini AI, Google Auth, JWT</li>
         </ul>
 
         <strong>2. Money Nest (Money Management App)</strong>  
         <p>An app to track income, expenses, authentication, charts, and financial goals.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/money-management" target="_blank">View Repo</a></li>
-        <li><strong>Live Demo:</strong> <a href="https://moneynestapp.vercel.app/" target="_blank">Visit Site</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/money-management" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://moneynestapp.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> Next.js, MongoDB, Tailwind CSS, Zustand, Google Auth, JWT</li>
         </ul>
 
         <strong>3. Notepad App</strong>  
         <p>A simple note-taking app with create, update & delete features.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/Notepad" target="_blank">View Repo</a></li>
-        <li><strong>Live Demo:</strong> <a href="https://thenotepad.vercel.app/" target="_blank">Visit Site</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/Notepad" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://thenotepad.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> React, MongoDB, Express.js, Node.js, Tailwind CSS, Google Auth, JWT</li>
         </ul>
 
         <strong>4. Restaurant Website (E-commerce)</strong>  
         <p>A MERN + TypeScript application for browsing and ordering food online.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/Food-Restaurent" target="_blank">View Repo</a></li>
-        <li><strong>Live Demo:</strong> <a href="https://restaurant-website-dem.vercel.app/" target="_blank">Visit Site</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/Food-Restaurent" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://restaurant-website-dem.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> React, MongoDB, Express.js, Node.js, TypeScript, Vite, Bootstrap</li>
         </ul>
 
         <strong>5. Pokémon App</strong>  
         <p>A Pokédex-style viewer using the Fetch API.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/pokemon" target="_blank">View Repo</a></li>
-        <li><strong>Live Demo:</strong> <a href="https://thepokemonexplorer.vercel.app/" target="_blank">Visit Site</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/pokemon" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://thepokemonexplorer.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> React, Tailwind CSS, Fetch API</li>
         </ul>
 
         <strong>6. Portfolio Website</strong>  
         <p>Vignesh’s personal portfolio with dark/light mode, 3D laptop animation, smooth UI, and a built-in chatbot.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/Vignesh-A-S-Portfolio" target="_blank">View Repo</a></li>
-        <li><strong>Live Demo:</strong> <a href="https://a-s-vignesh-portfolio.vercel.app/" target="_blank">Visit Site</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/Vignesh-A-S-Portfolio" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://a-s-vignesh-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> React, Tailwind CSS, AOS</li>
         </ul>
 
         <strong>7. Lolo Footwear</strong>  
         <p>A footwear e-commerce website.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/lolo" target="_blank">View Repo</a></li>
-        <li><strong>Live Demo:</strong> <a href="https://lolofootwear.ct.ws/" target="_blank">Visit Site</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/lolo" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://lolofootwear.ct.ws/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS</li>
         </ul>
 
@@ -145,13 +145,13 @@ try {
 
         <strong>1. VigneshWaran – Digital Marketing Portfolio</strong>
         <ul>
-        <li><strong>Live Demo:</strong> <a href="https://www.vigneshwaran.co.in/" target="_blank">Visit Site</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://www.vigneshwaran.co.in/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> React.js, Tailwind CSS</li>
         </ul>
 
         <strong>2. Ruby Scaffolding</strong>
         <ul>
-        <li><strong>Live Demo:</strong> <a href="https://rubyscaffolding.com/" target="_blank">Visit Site</a></li>
+        <li><strong>Live Demo:</strong> <a href="https://rubyscaffolding.com/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> Next.js, MongoDB, Tailwind CSS</li>
         </ul>
 
@@ -160,9 +160,9 @@ try {
         -----------------------------------------------------
 
         <ul>
-        <li><strong>Email:</strong> <a href="mailto:asvignesh2010@gmail.com">asvignesh2010@gmail.com</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/a-s-vignesh/" target="_blank">linkedin.com/in/a-s-vignesh</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh" target="_blank">github.com/A-S-Vignesh</a></li>
+        <li><strong>Email:</strong> <a href="mailto:asvicki2002@gmail.com">asvicki2002@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/a-s-vignesh/" target="_blank rel="noopener noreferrer">linkedin.com/in/a-s-vignesh</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh" target="_blank" rel="noopener noreferrer">github.com/A-S-Vignesh</a></li>
         </ul>
 
         -----------------------------------------------------

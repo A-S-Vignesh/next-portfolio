@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { logoimage } from "./Images";
 import Image from "next/image";
 import DarkmodeToggle from "./DarkmodeToggle";
 // import DarkMode from "./DarkMode";
@@ -47,7 +46,7 @@ const Navbar = () => {
           <button onClick={() => handleScroll("home")}>
             <Image
               className="h-[45px]"
-              src={logoimage}
+              src="/images/logo/vignesh-a-s-logo.png"
               alt="Vignesh portfolio Logo"
               width={200}
               height={100}

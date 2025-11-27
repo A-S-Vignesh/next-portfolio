@@ -10,7 +10,14 @@ export default function DarkmodeToggle() {
 
   // Fix hydration mismatch
   useEffect(() => setMounted(true), []);
-  if (!mounted) return null;
+  if (!mounted) {
+    return (
+      <div className="w-16 h-8 rounded-full bg-gray-300 dark:bg-gray-700 relative overflow-hidden">
+        <div className="absolute inset-0 animate-pulse bg-linear-to-r from-transparent via-gray-200 dark:via-gray-600 to-transparent" />
+      </div>
+    );
+  }
+
 
   const isDark = theme === "dark";
 
