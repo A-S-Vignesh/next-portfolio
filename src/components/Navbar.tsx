@@ -42,14 +42,15 @@ const Navbar = () => {
     <nav className="sticky top-0 w-full bg-custom-navbarcolor dark:bg-custom-grey shadow-custom-navbar z-50">
       <div className="container mx-auto px-4 flex justify-between items-center py-4">
         {/* Logo */}
-        <div className="text-2xl font-bold text-sky-500">
+        <div className="text-2xl font-bold text-sky-500 flex justify-center items-center">
           <button onClick={() => handleScroll("home")}>
             <Image
-              className="h-[45px]"
+              className="h-[45px] w-auto"
               src="/images/logo/vignesh-a-s-logo.png"
               alt="Vignesh portfolio Logo"
               width={200}
-              height={100}
+              height={45}
+              priority
             />
           </button>
         </div>
@@ -143,6 +144,7 @@ const Navbar = () => {
         <button
           className="absolute top-6 right-6 text-gray-600 dark:text-gray-300 focus:outline-none"
           onClick={toggleMenu}
+          aria-label="Teggole Menu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
