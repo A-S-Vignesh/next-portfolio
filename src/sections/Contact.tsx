@@ -1,6 +1,13 @@
 "use client";
 
+import { useState } from "react";
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
   return (
     <section id="contact" className="mt-8">
       <div className="min-h-screen flex items-center justify-center px-4 py-12">
@@ -30,6 +37,8 @@ const Contact = () => {
                   type="text"
                   id="name"
                   name="Name"
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="mt-2 block w-full px-4 py-2.5 text-gray-700 dark:text-gray-200 bg-gray-50 dark:bg-gray-700 border rounded-lg focus:ring-2 focus:ring-sky-300 dark:focus:ring-sky-600 focus:outline-none transition-all"
                   placeholder="Enter your name"
                 />
@@ -47,6 +56,8 @@ const Contact = () => {
                   type="email"
                   id="email"
                   name="Email"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="mt-2 block w-full px-4 py-2.5 text-gray-700 dark:text-gray-200 bg-gray-50 dark:bg-gray-700 border rounded-lg focus:ring-2 focus:ring-sky-300 dark:focus:ring-sky-600 focus:outline-none transition-all"
                   placeholder="Enter your email"
                 />
@@ -65,6 +76,8 @@ const Contact = () => {
                 id="message"
                 rows={5}
                 name="Message"
+                value={formData.message}
+                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 className="mt-2 block w-full px-4 py-2.5 text-gray-700 dark:text-gray-200 bg-gray-50 dark:bg-gray-700 border rounded-lg focus:ring-2 focus:ring-sky-300 dark:focus:ring-sky-600 focus:outline-none transition-all"
                 placeholder="Write your message here..."
               ></textarea>
@@ -78,6 +91,7 @@ const Contact = () => {
             >
               <button
                 type="submit"
+                disabled={!formData.name || !formData.email || !formData.message}
                 className="px-8 py-3.5 bg-sky-500 hover:bg-sky-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all transform hover:scale-[1.02]"
               >
                 Send Message

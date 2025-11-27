@@ -206,7 +206,8 @@ const renderHTML = (html: string) => {
     <div className="fixed bottom-4 right-4 z-50">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className={`bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg hover:scale-105 transition-transform ${
+        className={`bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg hover:scale-105 border border-gray-200 
+            dark:border-gray-700 transition-transform ${
           isOpen ? "hidden md:block" : "block"
         }`}
         aria-label="Chat"
