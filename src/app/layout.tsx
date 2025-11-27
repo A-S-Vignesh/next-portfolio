@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
+import Chatbot from "@/components/ChatBot";
 
 /* Load Roboto font */
 const roboto = Roboto({
@@ -66,6 +67,7 @@ export default function RootLayout({
       <body className={`${roboto.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
+          <Chatbot />
         </ThemeProvider>
       </body>
     </html>

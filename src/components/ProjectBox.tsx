@@ -128,7 +128,6 @@ interface ProjectBoxProps {
   techstack: string[];
 }
 
-
 function ProjectBox({
   id,
   name,
@@ -139,7 +138,6 @@ function ProjectBox({
   livedemo,
   techstack,
 }: ProjectBoxProps) {
-  console.log("id : ", id);
   return (
     <div
       className="card w-full shadow-custom-dark bg-custom-blue transition-all duration-300 ease-out hover:scale-[1.02] dark:bg-custom-darkblue dark:shadow-custom-light relative overflow-hidden"
