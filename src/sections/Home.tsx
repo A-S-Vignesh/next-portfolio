@@ -54,9 +54,11 @@ const scrollToHero = () => {
 
         {/* Right Section */}
         <div className="w-full md:w-1/2 flex justify-center">
-          <img
-            src="images/vickywithpenguin2.png"
+          <Image
+            src="/images/vickywithpenguin2.png"
             alt="Main Visual"
+            width={500}
+            height={500}
             className="w-64 sm:w-80 md:w-[400px] h-auto rounded-full object-cover"
           />
         </div>

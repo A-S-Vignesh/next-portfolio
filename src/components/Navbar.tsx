@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { logoimage } from "./Images";
 import Image from "next/image";
 import DarkmodeToggle from "./DarkmodeToggle";
