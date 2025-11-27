@@ -1,7 +1,6 @@
 import React from "react";
 import EducationBox from "../components/EducationBox";
 import educationDetails from "../utils/EducationDetails";
-import { studentimage } from "../components/Images";
 import Image from "next/image";
 
 function Education() {
@@ -23,7 +22,7 @@ function Education() {
           <div data-aos="fade-right" data-aos-delay="400">
             <Image
               className="rounded-lg"
-              src={studentimage}
+              src="/images/educationdetails/student.jpg"
               alt="Education illustration"
               width={1024}
               height={1024}

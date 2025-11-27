@@ -1,7 +1,4 @@
 "use client";
-
-import React from "react";
-import { logoimage } from "@/components/Images";
 import { ReactTyped } from "react-typed";
 import Image from "next/image";
 

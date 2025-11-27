@@ -16,7 +16,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <form>
+          <form action={"mailto:asvicki2002@gmail.com"} encType="text/plain" method="POST">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Name Input */}
               <div data-aos="fade-up" data-aos-delay="200">
@@ -29,6 +29,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
+                  name="Name"
                   className="mt-2 block w-full px-4 py-2.5 text-gray-700 dark:text-gray-200 bg-gray-50 dark:bg-gray-700 border rounded-lg focus:ring-2 focus:ring-sky-300 dark:focus:ring-sky-600 focus:outline-none transition-all"
                   placeholder="Enter your name"
                 />
@@ -45,6 +46,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
+                  name="Email"
                   className="mt-2 block w-full px-4 py-2.5 text-gray-700 dark:text-gray-200 bg-gray-50 dark:bg-gray-700 border rounded-lg focus:ring-2 focus:ring-sky-300 dark:focus:ring-sky-600 focus:outline-none transition-all"
                   placeholder="Enter your email"
                 />
@@ -62,6 +64,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows={5}
+                name="Message"
                 className="mt-2 block w-full px-4 py-2.5 text-gray-700 dark:text-gray-200 bg-gray-50 dark:bg-gray-700 border rounded-lg focus:ring-2 focus:ring-sky-300 dark:focus:ring-sky-600 focus:outline-none transition-all"
                 placeholder="Write your message here..."
               ></textarea>
@@ -91,10 +94,10 @@ const Contact = () => {
             <p className="mb-3">
               Or reach out directly via email:{" "}
               <a
-                href="mailto:a.s.vignesh.work@gmail.com"
+                href="mailto:asvicki2002@gmail.com"
                 className="text-sky-500 hover:text-sky-600 dark:hover:text-sky-400 underline transition-colors"
               >
-                a.s.vignesh.work@gmail.com
+                asvicki2002@gmail.com
               </a>
             </p>
             <p>

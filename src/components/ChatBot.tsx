@@ -54,6 +54,12 @@ const Chatbot = () => {
       document.body.style.position = "fixed";
       document.body.style.top = `-${scrollY}px`;
       document.body.style.width = "100%";
+    } else if(isMobile) {
+      // Restore scroll
+      const scrollY = document.body.style.top;
+      document.body.style.position = "";
+      document.body.style.top = "";
+      window.scrollTo(0, parseInt(scrollY || "0") * -1);
     }
   }, [isOpen]);
 
@@ -74,14 +80,19 @@ const Chatbot = () => {
 
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
-  const renderHTML = (html: string) => {
-    const clean = DOMPurify.sanitize(html, {
-      ADD_ATTR: ["target", "rel"],
-      ADD_URI_SAFE_ATTR: ["target"],
-    });
+const renderHTML = (html: string) => {
+  const clean = DOMPurify.sanitize(html, {
+    ADD_ATTR: ["target", "rel", "class"], // allow class
+  });
 
-    return <div dangerouslySetInnerHTML={{ __html: clean }} />;
-  };
+  const styled = clean.replace(
+    /<a\b([^>]*)>/g,
+    `<a$1 class="text-blue-500 underline hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300">`
+  );
+
+  return <div dangerouslySetInnerHTML={{ __html: styled }} />;
+};
+
 
   // Auto-scroll to bottom when messages change
   const scrollToBottom = useCallback(() => {
@@ -204,7 +215,7 @@ const Chatbot = () => {
           className="w-12 h-12"
           width={48}
           height={48}
-          src="/images/chat-balloon.png"
+          src="/images/chatapp/chat-balloon.png"
           alt="Chat"
         />
       </button>
@@ -219,7 +230,7 @@ const Chatbot = () => {
           >
             <div className="p-4 border-b dark:border-gray-700 flex justify-between items-center">
               <Image
-                src={"/images/rani.png"}
+                src={"/images/chatapp/rani.png"}
                 width={48}
                 height={48}
                 alt="Rani image"
@@ -313,7 +324,7 @@ const Chatbot = () => {
 
               <button
                 onClick={() => handleSendMessage(userInput)}
-                disabled={isTyping}
+                disabled={isTyping || userInput.trim() === ""}
                 className="
                 p-2 px-4 bg-sky-500 text-white rounded 
                 hover:bg-sky-600 transition disabled:opacity-50
