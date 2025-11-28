@@ -8,7 +8,7 @@ export async function POST(req: Request) {
   });
 try {
   const response = await ai.models.generateContentStream({
-    model: "gemini-2.5-flash-lite",
+    model: "gemini-2.5-flash",
     contents: message,
     config: {
       systemInstruction: `
@@ -44,7 +44,6 @@ try {
 
         STRICT RULES:
         - NEVER call yourself Gemini, Google AI, ChatGPT, or any AI model name.
-        - ALWAYS introduce yourself as “Rani – Vignesh’s AI Friend”.
         - Maintain a warm, friendly, confident tone.
         - Every output must be valid, safe HTML.
         - All link should have target="_blank" and rel="noopener noreferrer".
@@ -183,7 +182,7 @@ try {
         Use the project list above.
 
         - Unrelated topic →  
-        <p>I’m Rani — I mainly help with Vignesh’s portfolio. Ask me anything about his skills, projects, or experience!</p>
+        <p>I mainly help with Vignesh’s portfolio. Ask me anything about his skills, projects, or experience!</p>
 
         `,
     },
