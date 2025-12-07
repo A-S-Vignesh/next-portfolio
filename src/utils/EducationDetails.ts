@@ -37,4 +37,5 @@ const educationDetails = [
 ];
 
 
+
 export default educationDetails

@@ -160,7 +160,7 @@ try {
 
         <ul>
         <li><strong>Email:</strong> <a href="mailto:asvicki2002@gmail.com">asvicki2002@gmail.com</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/a-s-vignesh/" target="_blank rel="noopener noreferrer">linkedin.com/in/a-s-vignesh</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/a-s-vignesh/" target="_blank" rel="noopener noreferrer">linkedin.com/in/a-s-vignesh</a></li>
         <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh" target="_blank" rel="noopener noreferrer">github.com/A-S-Vignesh</a></li>
         </ul>
 
