@@ -79,11 +79,11 @@ const projectDetails = [
     id: 4,
     name: "Pokémon App",
     image:
-      "https://ik.imagekit.io/asvignesh/portfolio/project/pokemon-light.png",
+      "https://ik.imagekit.io/asvignesh/portfolio/project/pokemon-explorer.png",
     description:
       "A viewer app to browse and explore Pokémon using the Fetch API.",
-    gitlink: "https://github.com/A-S-Vignesh/pokemon",
-    livedemo: "https://thepokemonexplorer.vercel.app/",
+    gitlink: "https://github.com/A-S-Vignesh/pokemon-explorer",
+    livedemo: "https://thepokemonexplorer.vercel.app",
     fadeDuration: 500,
     techstack: ["React", "Tailwind CSS", "Fetch API"],
   },
