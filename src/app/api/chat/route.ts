@@ -117,7 +117,7 @@ try {
         <strong>5. Pokémon App</strong>  
         <p>A Pokédex-style viewer using the Fetch API.</p>
         <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/pokemon" target="_blank" rel="noopener noreferrer">View Repo</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/A-S-Vignesh/pokemon-explorer" target="_blank" rel="noopener noreferrer">View Repo</a></li>
         <li><strong>Live Demo:</strong> <a href="https://thepokemonexplorer.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a></li>
         <li><strong>Tech Stack:</strong> React, Tailwind CSS, Fetch API</li>
         </ul>
