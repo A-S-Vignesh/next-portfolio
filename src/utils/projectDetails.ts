@@ -1,20 +1,19 @@
 const projectDetails = [
   {
     id: 1,
-    name: "TheBlogGPT",
+    name: "BlogGPT",
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/the-blog-gpt-light.png",
     description:
-      "A blog website where users from around the world can write blogs and generate content using Gemini AI.",
+      "A full stack blogging platform where users can write, publish, and generate blog content using Google Gemini AI with secure authentication.",
     gitlink: "https://github.com/A-S-Vignesh/blog-gpt",
     livedemo: "https://thebloggpt.vercel.app/",
-
     techstack: [
       "Next.js",
       "MongoDB",
       "Tailwind CSS",
       "Gemini AI",
-      "Google Auth",
+      "Google Authentication",
       "JWT",
     ],
   },
@@ -23,7 +22,7 @@ const projectDetails = [
     name: "Money Nest",
     image: "https://ik.imagekit.io/asvignesh/portfolio/project/money-nest.png",
     description:
-      "A modern money management app to track income, expenses, and financial goals. Features a dashboard with charts, Google authentication, and secure JWT-based user management.",
+      "A modern personal finance management application to track income, expenses, and financial goals with an interactive dashboard and secure user authentication.",
     gitlink: "https://github.com/A-S-Vignesh/money-management",
     livedemo: "https://moneynestapp.vercel.app/",
     techstack: [
@@ -31,57 +30,28 @@ const projectDetails = [
       "MongoDB",
       "Tailwind CSS",
       "Zustand",
-      "Google Auth",
-      "JWT",
-    ],
-  },
-  {
-    id: 7,
-    name: "Notepad",
-    image:
-      "https://ik.imagekit.io/asvignesh/portfolio/project/notepad-light.png",
-    description:
-      "A simple note-taking application with create, update, and delete features.",
-    gitlink: "https://github.com/A-S-Vignesh/Notepad",
-    livedemo: "https://thenotepad.vercel.app/",
-    fadeDuration: 300,
-    techstack: [
-      "React",
-      "MongoDB",
-      "Express.js",
-      "Node.js",
-      "Tailwind CSS",
-      "Google Auth",
+      "Google Authentication",
       "JWT",
     ],
   },
   {
     id: 3,
-    name: "Restaurant Website",
-    image:
-      "https://ik.imagekit.io/asvignesh/portfolio/project/food-restaurant.png",
+    name: "Foodie",
+    image: "https://ik.imagekit.io/asvignesh/portfolio/project/foodie.png",
     description:
-      "An e-commerce style website for a restaurant where food items can be browsed and ordered.",
-    gitlink: "https://github.com/A-S-Vignesh/Food-Restaurent",
-    livedemo: "https://restaurant-website-dem.vercel.app/",
+      "A full-stack restaurant website that allows users to browse the menu, view food details, and place online orders through a clean and responsive interface.",
+    gitlink: "https://github.com/A-S-Vignesh/foodie",
+    livedemo: "https://tryfoodie.vercel.app/",
     fadeDuration: 400,
-    techstack: [
-      "React",
-      "MongoDB",
-      "Express.js",
-      "Node.js",
-      "TypeScript",
-      "Vite",
-      "Bootstrap",
-    ],
+    techstack: ["Next.js", "MongoDB", "Tailwind CSS", "Recharts"],
   },
   {
     id: 4,
-    name: "Pokémon App",
+    name: "Pokémon Explorer",
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/pokemon-explorer.png",
     description:
-      "A viewer app to browse and explore Pokémon using the Fetch API.",
+      "A React-based application to browse and explore Pokémon data using external APIs with a fast and responsive UI.",
     gitlink: "https://github.com/A-S-Vignesh/pokemon-explorer",
     livedemo: "https://thepokemonexplorer.vercel.app",
     fadeDuration: 500,
@@ -90,9 +60,9 @@ const projectDetails = [
   {
     id: 5,
     name: "Portfolio Website",
-    image: "https://ik.imagekit.io/asvignesh/portfolio/project/potfolio.png",
+    image: "https://ik.imagekit.io/asvignesh/portfolio/project/portfolio2.png",
     description:
-      "My personal portfolio website with dark/light mode, chatbot, 3D laptop screen embed, and smooth scrolling.",
+      "My personal portfolio website showcasing projects, skills, and experience with dark/light mode, an integrated chatbot, and smooth scrolling animations.",
     gitlink: "https://github.com/A-S-Vignesh/Vignesh-A-S-Portfolio",
     livedemo: "https://a-s-vignesh-portfolio.vercel.app/",
     fadeDuration: "fade-up",
@@ -103,11 +73,32 @@ const projectDetails = [
     name: "Lolo Footwear",
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/lolo-footwear.png",
-    description: "An e-commerce website for buying footwear online.",
+    description:
+      "An e-commerce website for browsing and purchasing footwear online with basic product listing and order flow.",
     gitlink: "https://github.com/A-S-Vignesh/lolo",
     livedemo: "https://lolofootwear.ct.ws/",
     fadeDuration: 600,
     techstack: ["PHP", "MySQL", "HTML", "CSS"],
+  },
+  {
+    id: 7,
+    name: "Notepad",
+    image:
+      "https://ik.imagekit.io/asvignesh/portfolio/project/notepad-light.png",
+    description:
+      "A CRUD-based note-taking application that allows users to create, edit, and delete notes with secure authentication.",
+    gitlink: "https://github.com/A-S-Vignesh/Notepad",
+    livedemo: "https://thenotepad.vercel.app/",
+    fadeDuration: 300,
+    techstack: [
+      "React",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Google Authentication",
+      "JWT",
+    ],
   },
 ];
 
