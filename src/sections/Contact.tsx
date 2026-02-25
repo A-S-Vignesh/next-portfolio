@@ -209,7 +209,9 @@ const Contact = () => {
                   className="text-green-600 dark:text-green-400"
                 />
               </div>
-              <h3 className="text-2xl font-bold mt-4">Message Sent!</h3>
+              <h3 className="text-2xl font-bold mt-4 text-black dark:text-white">
+                Message Sent!
+              </h3>
               <p className="text-gray-600 dark:text-gray-400 mt-2">
                 Thanks for contacting. I’ll get back to you as soon as possible.
               </p>
