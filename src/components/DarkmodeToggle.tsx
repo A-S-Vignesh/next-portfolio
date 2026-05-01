@@ -5,7 +5,7 @@ import { Cloud, Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function DarkmodeToggle() {
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   // Fix hydration mismatch
@@ -19,7 +19,7 @@ export default function DarkmodeToggle() {
   }
 
 
-  const isDark = theme === "dark";
+  const isDark = resolvedTheme === "dark";
 
   return (
     <button
