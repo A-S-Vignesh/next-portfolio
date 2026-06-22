@@ -50,7 +50,7 @@ function Project() {
         className="flex flex-col items-center justify-center my-8"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100">
-          Client Projects
+          Realtime Projects
         </h2>
         <hr className="w-[70px] border-b-4 m-4 border-custom-textblue" />
       </div>

@@ -5,7 +5,7 @@ const projectDetails = [
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/the-blog-gpt-light.png",
     description:
-      "A full stack blogging platform where users can write, publish, and generate blog content using Google Gemini AI with secure authentication.",
+      "A full-stack blogging platform with real-time AI content generation powered by Google Gemini's streaming API. Features Google OAuth, JWT-protected routes, and a rich markdown editor built with Next.js and MongoDB.",
     gitlink: "https://github.com/A-S-Vignesh/blog-gpt",
     livedemo: "https://thebloggpt.vercel.app/",
     techstack: [
@@ -22,7 +22,7 @@ const projectDetails = [
     name: "Money Nest",
     image: "https://ik.imagekit.io/asvignesh/portfolio/project/money-nest.png",
     description:
-      "A modern personal finance management application to track income, expenses, and financial goals with an interactive dashboard and secure user authentication.",
+      "A personal finance dashboard that tracks income, expenses, and financial goals with category-wise breakdowns and interactive chart visualizations. Built with Next.js, Zustand for global state management, and secured with Google OAuth and JWT.",
     gitlink: "https://github.com/A-S-Vignesh/money-management",
     livedemo: "https://moneynestapp.vercel.app/",
     techstack: [
@@ -39,10 +39,9 @@ const projectDetails = [
     name: "Foodie",
     image: "https://ik.imagekit.io/asvignesh/portfolio/project/foodie.png",
     description:
-      "A full-stack restaurant website that allows users to browse the menu, view food details, and place online orders through a clean and responsive interface.",
+      "A full-stack restaurant e-commerce platform with menu browsing, cart management, and online order placement backed by a Next.js API and MongoDB. Includes order analytics with Recharts and a fully responsive Tailwind CSS UI.",
     gitlink: "https://github.com/A-S-Vignesh/foodie",
     livedemo: "https://tryfoodie.vercel.app/",
-    fadeDuration: 400,
     techstack: ["Next.js", "MongoDB", "Tailwind CSS", "Recharts"],
   },
   {
@@ -51,10 +50,9 @@ const projectDetails = [
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/pokemon-explorer.png",
     description:
-      "A React-based application to browse and explore Pokémon data using external APIs with a fast and responsive UI.",
+      "A Pokédex-style React app that fetches and displays Pokémon data from the PokéAPI with search, filter, and detailed stat views. Demonstrates clean REST API integration, reusable component architecture, and responsive design with Tailwind CSS.",
     gitlink: "https://github.com/A-S-Vignesh/pokemon-explorer",
     livedemo: "https://thepokemonexplorer.vercel.app",
-    fadeDuration: 500,
     techstack: ["React", "Tailwind CSS", "Fetch API"],
   },
   {
@@ -62,11 +60,10 @@ const projectDetails = [
     name: "Portfolio Website",
     image: "https://ik.imagekit.io/asvignesh/portfolio/project/portfolio2.png",
     description:
-      "My personal portfolio website showcasing projects, skills, and experience with dark/light mode, an integrated chatbot, and smooth scrolling animations.",
+      "My personal developer portfolio built with Next.js, featuring an AI-powered chatbot with streaming Gemini responses, dark/light mode, and a MongoDB-backed contact system. Includes DOMPurify XSS sanitization, AOS scroll animations, and deployed on Vercel.",
     gitlink: "https://github.com/A-S-Vignesh/Vignesh-A-S-Portfolio",
     livedemo: "https://a-s-vignesh-portfolio.vercel.app/",
-    fadeDuration: "fade-up",
-    techstack: ["React", "Tailwind CSS", "AOS"],
+    techstack: ["Next.js", "MongoDB", "Tailwind CSS", "Gemini AI", "Framer Motion"],
   },
   {
     id: 6,
@@ -74,10 +71,9 @@ const projectDetails = [
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/lolo-footwear.png",
     description:
-      "An e-commerce website for browsing and purchasing footwear online with basic product listing and order flow.",
+      "A footwear e-commerce site built with PHP and MySQL, featuring product listings, session-based cart management, and a full checkout flow. My first full-stack project, building server-side rendering, relational database design, and user session handling from scratch.",
     gitlink: "https://github.com/A-S-Vignesh/lolo",
     livedemo: "https://lolofootwear.ct.ws/",
-    fadeDuration: 600,
     techstack: ["PHP", "MySQL", "HTML", "CSS"],
   },
   {
@@ -86,10 +82,9 @@ const projectDetails = [
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/notepad-light.png",
     description:
-      "A CRUD-based note-taking application that allows users to create, edit, and delete notes with secure authentication.",
+      "A MERN stack note-taking app with full CRUD operations, protected Express.js REST API endpoints, and Google OAuth with JWT for secure authentication. Features real-time note updates and a clean responsive UI built with Tailwind CSS.",
     gitlink: "https://github.com/A-S-Vignesh/Notepad",
     livedemo: "https://thenotepad.vercel.app/",
-    fadeDuration: 300,
     techstack: [
       "React",
       "MongoDB",
@@ -109,10 +104,9 @@ export const clientProjects = [
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/client-project/vigneshwaran-portfolio.webp",
     description:
-      "A portfolio website for a digital marketing professional, showcasing their services and expertise.",
+      "A conversion-focused portfolio for a digital marketing professional, showcasing services, case studies, and client results with a clean visual hierarchy. Delivered mobile-first with React and Tailwind CSS, with smooth animations and fast load times.",
     gitlink: "",
     livedemo: "https://www.vigneshwaran.co.in/",
-
     techstack: ["React.js", "Tailwind CSS"],
   },
   {
@@ -121,10 +115,9 @@ export const clientProjects = [
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/client-project/ruby-scaffolding.webp",
     description:
-      "A Scaffolding Rental service website that allows users to rent scaffolding for all projects.",
+      "A scaffolding rental service platform with product browsing, quote request forms, and a MongoDB-backed inquiry management system for a construction industry client. Built with Next.js and Tailwind CSS with a responsive, SEO-friendly design.",
     gitlink: "",
     livedemo: "https://rubyscaffolding.com/",
-    fadeDuration: 300,
     techstack: ["Next.js", "MongoDB", "Tailwind CSS"],
   },
 ];

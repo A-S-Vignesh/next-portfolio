@@ -141,7 +141,7 @@ function ProjectBox({
 }: ProjectBoxProps) {
   return (
     <div
-      className="card w-full shadow-custom-dark bg-custom-blue transition-all duration-300 ease-out hover:scale-[1.02] dark:bg-custom-darkblue dark:shadow-custom-light relative overflow-hidden"
+      className="card w-full bg-white dark:bg-gray-800 shadow-sm hover:shadow-md transition-all duration-300 ease-out hover:scale-[1.02] relative overflow-hidden rounded-xl"
       data-aos="fade-up" // animate whole card
       data-aos-easing="ease-out-cubic"
       data-aos-duration="900"

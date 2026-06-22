@@ -55,7 +55,7 @@ try {
         Name: Vignesh A S  
         Role: Full-Stack / MERN Web Developer  
         Education: HSC → BCA → MCA  
-        Current Position: Web Developer at Sunlight Group (Sembakkam, Chennai)  
+        Current Position: Full Stack Developer at Sunlight Group (Sembakkam, Chennai)  
         Previous Experience: Web Developer Intern at GodParticles  
 
         Skills / Technologies:
@@ -139,7 +139,7 @@ try {
         </ul>
 
         -----------------------------------------------------
-        CLIENT PROJECTS
+        REALTIME PROJECTS
         -----------------------------------------------------
 
         <strong>1. VigneshWaran – Digital Marketing Portfolio</strong>

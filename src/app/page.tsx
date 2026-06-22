@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import About from "@/sections/About";
+import Certifications from "@/sections/Certifications";
 import Contact from "@/sections/Contact";
 import Education from "@/sections/Education";
 import Footer from "@/sections/Footer";
@@ -24,9 +25,10 @@ export default function HomePage() {
         <Skills />
       </div>
 
-      {/* Projects, Contact & Footer Section */}
+      {/* Projects, Certifications, Contact & Footer Section */}
       <div className="bg-linear-to-b from-custom-gradientlightblue to-custom-gradientultralightblue dark:from-custom-gradientdarkblue dark:to-custom-gradientultradarkblue">
         <Project />
+        <Certifications />
         <Contact />
         <Footer />
       </div>

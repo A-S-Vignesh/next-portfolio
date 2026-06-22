@@ -144,7 +144,7 @@ const Navbar = () => {
         <button
           className="absolute top-6 right-6 text-gray-600 dark:text-gray-300 focus:outline-none"
           onClick={toggleMenu}
-          aria-label="Teggole Menu"
+          aria-label="Toggle Menu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

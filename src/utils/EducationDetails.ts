@@ -29,8 +29,8 @@ const educationDetails = [
   },
   {
     id: 6,
-    year: "July 2025 - till Now",
-    course: "Web developer",
+    year: "July 2025 - Present",
+    course: "Full Stack Developer",
     institute: "Sunlight Group",
     city: "Sembakam, Chennai",
   },
