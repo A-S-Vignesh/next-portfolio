@@ -1,4 +1,3 @@
-import React from "react";
 import EducationBox from "../components/EducationBox";
 import educationDetails from "../utils/EducationDetails";
 import Image from "next/image";
@@ -7,24 +6,13 @@ function Education() {
   return (
     <section id="education" data-aos="fade-up" data-aos-duration="600">
       <div className="w-full max-w-7xl 2xl:max-w-[85%] mx-auto px-4 py-12 overflow-hidden">
-        <div
-          className="flex flex-col items-center justify-center mb-10"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100">
-            Education Timeline
-          </h2>
-          <hr className="w-[60px] border-b-4 m-4 border-custom-textblue" />
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
 
           {/* Profile card */}
           <div data-aos="fade-right" data-aos-delay="300">
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm overflow-hidden w-full h-full flex flex-col">
               {/* Photo — stretches to fill height */}
-              <div className="relative w-full flex-1 min-h-[300px]">
+              <div className="relative w-full aspect-3/4 md:aspect-auto md:flex-1 md:min-h-[300px]">
                 <Image
                   src="https://ik.imagekit.io/asvignesh/portfolio/me/me.png"
                   alt="Vignesh A S"
@@ -47,10 +35,16 @@ function Education() {
 
           {/* Timeline */}
           <div
-            className="relative border-l-4 border-sky-500"
             data-aos="fade-left"
             data-aos-delay="400"
           >
+            <div className="mb-6 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100">
+                Education Timeline
+              </h2>
+              <hr className="w-[60px] border-b-4 mt-3 mx-auto border-custom-textblue" />
+            </div>
+            <div className="relative border-l-4 border-sky-500">
             {educationDetails.map((edu, index) => (
               <EducationBox
                 key={edu.id}
@@ -61,6 +55,7 @@ function Education() {
                 delay={index * 100}
               />
             ))}
+            </div>
           </div>
         </div>
       </div>
